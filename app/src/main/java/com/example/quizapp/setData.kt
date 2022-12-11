@@ -60,11 +60,73 @@ object setData {
            4
        )
 
+       var question6 = QuestionData(
+           6,
+           "Leo's best qualities are _______.",
+
+           "Proud and loving",
+           "Generous and thoughtful",
+           "Happy and nice",
+           "Smart and witty",
+           2
+       )
+
+       var question7 = QuestionData(
+           7,
+           " Which color is said to best suit Leo?",
+
+           "blue",
+           "purple",
+           "gold",
+           "lavender",
+           3
+       )
+
+       var question8 = QuestionData(
+           8,
+           "What's Leos ruler?",
+
+           "Sun",
+           "Mercury",
+           "Mars",
+           "Jupyter",
+           1
+       )
+
+       var question9 = QuestionData(
+           9,
+           "Which season do Leos like most?",
+
+           "Spring",
+           "Summer",
+           "Fall",
+           "Winter",
+           2
+       )
+
+       var question10 = QuestionData(
+           10,
+           "Which role do Leos play in your friend group?",
+
+           "mom friend",
+           "baby",
+           "crazy sister",
+           "dramatic one",
+           4
+       )
+
+
        que.add(question1)
        que.add(question2)
        que.add(question3)
        que.add(question4)
        que.add(question5)
+       que.add(question6)
+       que.add(question7)
+       que.add(question8)
+       que.add(question9)
+       que.add(question10)
        return que
+
    }
 }
